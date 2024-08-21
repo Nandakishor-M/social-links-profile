@@ -83,6 +83,11 @@
 
 .social-media > div:hover{
     cursor: pointer;
-    background: hsl(75, 94%, 57%);
-    transition:2s;
+    background-color: hsl(75, 94%, 57%);
+    transition: .01s;
+    a{
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+    }
 }
