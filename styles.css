@@ -32,7 +32,6 @@
 }
 
 .profile-photo{
-    position: relative;
     margin-bottom: 1.5em;
 }
 
@@ -89,5 +88,25 @@
         font-size: 16px;
         font-weight: 600;
         color: black;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .card{
+        max-width: 20em;
+    }
+    .profile-photo img{
+        max-width: 4.3em;
+    }
+    .social-media > div{
+        max-width: 80%;
+    }
+
+    .social-media p {
+        font-size: 12px;
+    }
+    .person-name{
+        font-size: 20px;
     }
 }
